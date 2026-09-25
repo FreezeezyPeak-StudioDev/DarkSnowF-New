@@ -54,67 +54,82 @@ Experiencia oscura, personalizable y completa. Buscador multi-motor, accesos rá
 
 ### Estructura del Proyecto
 
-
+```text
 DarkSnowF/
-├── Index.html ← home (buscador, accesos, categorías, logo)
-├── popup.html ← mini menú del icono (redes, perfiles, ventana)
-├── manifest.json ← MV3 v3.2 (newtab, permisos, iconos)
-├── read.txt ← documentación
-├── .vscode/settings.json ← config del editor
+├── Index.html                    ← home (buscador, accesos, categorías, logo)
+├── popup.html                    ← mini menú del icono (redes, perfiles, ventana)
+├── manifest.json                 ← MV3 v3.2 (newtab, permisos, iconos)
+├── read.txt                      ← documentación
+├── .vscode/
+│   └── settings.json             ← config del editor
 │
 ├── pages/
-│ ├── config.html ← ajustes (tema, fondo, reloj, zoom, perfiles…)
-│ ├── credit.html ← créditos (logo + redes)
-│ └── License.html ← licencia GPL-3.0
+│   ├── config.html               ← ajustes (tema, fondo, reloj, zoom, perfiles…)
+│   ├── credit.html               ← créditos (logo + redes)
+│   └── License.html              ← licencia GPL-3.0
 │
 ├── assets/
-│ ├── Fx/Click2.mp3 ← sonido de clic
-│ ├── Texturas/Logos/ ← DarkSnowF.ico/.png, logo_freezeezy.png
-│ └── Texturas/UI/ ← 16 PNG + 21 SVG (iconos)
-│ └── icons/ ← gatos (5) + iconGd/Mc/Nav/Normal/Ny/Win
+│   ├── Fx/
+│   │   └── Click2.mp3            ← sonido de clic
+│   ├── Texturas/
+│   │   ├── Logos/
+│   │   │   ├── DarkSnowF.ico
+│   │   │   ├── DarkSnowF.png
+│   │   │   └── logo_freezeezy.png
+│   │   └── UI/
+│   │       ├── 16 PNG
+│   │       └── 21 SVG            ← iconos
+│   └── icons/
+│       ├── gatos/                ← 5 iconos
+│       └── iconGd/
+│           ├── Mc/
+│           ├── Nav/
+│           ├── Normal/
+│           ├── Ny/
+│           └── Win/
 │
-├── src/css/
-│ ├── cursor.css
-│ ├── dialogs.css
-│ ├── index-styles.css
-│ ├── main.css
-│ ├── menu.css
-│ ├── modals.css
-│ └── themes.css
-│
-├── src/js/
-│ ├── background.js
-│ ├── clock.js
-│ ├── config-loader.js
-│ ├── config-page.js
-│ ├── festive.js
-│ ├── i18n.js
-│ ├── i18n-pages.js
-│ ├── index-app.js
-│ ├── menu.js
-│ ├── modals.js
-│ ├── popup.js
-│ ├── rotate.js
-│ └── snow.js
+├── src/
+│   ├── css/
+│   │   ├── cursor.css
+│   │   ├── dialogs.css
+│   │   ├── index-styles.css
+│   │   ├── main.css
+│   │   ├── menu.css
+│   │   ├── modals.css
+│   │   └── themes.css
+│   │
+│   └── js/
+│       ├── background.js
+│       ├── clock.js
+│       ├── config-loader.js
+│       ├── config-page.js
+│       ├── festive.js
+│       ├── i18n.js
+│       ├── i18n-pages.js
+│       ├── index-app.js
+│       ├── menu.js
+│       ├── modals.js
+│       ├── popup.js
+│       ├── rotate.js
+│       └── snow.js
 │
 ├── utils/
-│ ├── animations.js
-│ ├── dialogs.js
-│ └── storage.js
+│   ├── animations.js
+│   ├── dialogs.js
+│   └── storage.js
 │
 ├── themes/
-│ ├── abyss.css
-│ ├── frost.css
-│ ├── neon.css
-│ ├── ocean.css
-│ └── dark.css (por defecto)
+│   ├── abyss.css
+│   ├── frost.css
+│   ├── neon.css
+│   ├── ocean.css
+│   └── dark.css                ← por defecto
 │
 └── versions/
-├── V1.0beta.xpi
-├── V2.0beta.xpi
-└── V3.2beta.xpi
-
-
+    ├── V1.0beta.xpi
+    ├── V2.0beta.xpi
+    └── V3.2beta.xpi
+```
 ### Cómo Usar
 
 **Home Principal:**
@@ -170,64 +185,84 @@ Dark, customizable, complete experience. Multi-engine search, draggable shortcut
 
 ### Project Structure
 
+## Project Structure
+
+```text
 DarkSnowF/
-├── Index.html ← home (search, shortcuts, categories, logo)
-├── popup.html ← mini menu of icon (networks, profiles, window)
-├── manifest.json ← MV3 v3.2 (newtab, permissions, icons)
-├── read.txt ← documentation
-├── .vscode/settings.json ← editor config
+├── Index.html                    ← home (search, shortcuts, categories, logo)
+├── popup.html                    ← mini menu of icon (networks, profiles, window)
+├── manifest.json                 ← MV3 v3.2 (newtab, permissions, icons)
+├── read.txt                     ← documentation
+├── .vscode/
+│   └── settings.json             ← editor config
 │
 ├── pages/
-│ ├── config.html ← settings (theme, background, clock, zoom, profiles…)
-│ ├── credit.html ← credits (logo + networks)
-│ └── License.html ← GPL-3.0 license
+│   ├── config.html               ← settings (theme, background, clock, zoom, profiles…)
+│   ├── credit.html               ← credits (logo + networks)
+│   └── License.html              ← GPL-3.0 license
 │
 ├── assets/
-│ ├── Fx/Click2.mp3 ← click sound
-│ ├── Texturas/Logos/ ← DarkSnowF.ico/.png, logo_freezeezy.png
-│ └── Texturas/UI/ ← 16 PNG + 21 SVG (interface icons)
-│ └── icons/ ← cats (5) + iconGd/Mc/Nav/Normal/Ny/Win
+│   ├── Fx/
+│   │   └── Click2.mp3            ← click sound
+│   ├── Texturas/
+│   │   ├── Logos/
+│   │   │   ├── DarkSnowF.ico
+│   │   │   ├── DarkSnowF.png
+│   │   │   └── logo_freezeezy.png
+│   │   └── UI/
+│   │       ├── 16 PNG
+│   │       └── 21 SVG            ← interface icons
+│   └── icons/
+│       ├── gatos/                ← 5 cats
+│       └── iconGd/
+│           ├── Mc/
+│           ├── Nav/
+│           ├── Normal/
+│           ├── Ny/
+│           └── Win/
 │
-├── src/css/
-│ ├── cursor.css
-│ ├── dialogs.css
-│ ├── index-styles.css
-│ ├── main.css
-│ ├── menu.css
-│ ├── modals.css
-│ └── themes.css
-│
-├── src/js/
-│ ├── background.js
-│ ├── clock.js
-│ ├── config-loader.js
-│ ├── config-page.js
-│ ├── festive.js
-│ ├── i18n.js
-│ ├── i18n-pages.js
-│ ├── index-app.js
-│ ├── menu.js
-│ ├── modals.js
-│ ├── popup.js
-│ ├── rotate.js
-│ └── snow.js
+├── src/
+│   ├── css/
+│   │   ├── cursor.css
+│   │   ├── dialogs.css
+│   │   ├── index-styles.css
+│   │   ├── main.css
+│   │   ├── menu.css
+│   │   ├── modals.css
+│   │   └── themes.css
+│   │
+│   └── js/
+│       ├── background.js
+│       ├── clock.js
+│       ├── config-loader.js
+│       ├── config-page.js
+│       ├── festive.js
+│       ├── i18n.js
+│       ├── i18n-pages.js
+│       ├── index-app.js
+│       ├── menu.js
+│       ├── modals.js
+│       ├── popup.js
+│       ├── rotate.js
+│       └── snow.js
 │
 ├── utils/
-│ ├── animations.js
-│ ├── dialogs.js
-│ └── storage.js
+│   ├── animations.js
+│   ├── dialogs.js
+│   └── storage.js
 │
 ├── themes/
-│ ├── abyss.css
-│ ├── frost.css
-│ ├── neon.css
-│ ├── ocean.css
-│ └── dark.css (default)
+│   ├── abyss.css
+│   ├── frost.css
+│   ├── neon.css
+│   ├── ocean.css
+│   └── dark.css                ← default
 │
 └── versions/
-├── V1.0beta.xpi
-├── V2.0beta.xpi
-└── V3.2beta.xpi
+    ├── V1.0beta.xpi
+    ├── V2.0beta.xpi
+    └── V3.2beta.xpi
+```
 
 
 ### How to Use
