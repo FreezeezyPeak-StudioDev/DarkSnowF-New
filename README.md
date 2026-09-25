@@ -1,12 +1,12 @@
 # DarkSnowF
 
-**[🇪🇸 Español](#español--es)** | **[🇬🇧 English](#english--en)**
+**[🇪🇸 Español](#español)** | **[🇬🇧 English](#english)**
 
 ---
 
-## Español (ES)
+## Español
 
-**DarkSnowF — Tu página de inicio personalizada**
+### DarkSnowF — Tu página de inicio personalizada
 
 Experiencia oscura, personalizable y completa. Buscador multi-motor, accesos rápidos arrastrables, reloj en vivo, fondos dinámicos, 5 temas azules, nieve animada, frases secretas y perfiles independientes.
 
@@ -14,8 +14,8 @@ Experiencia oscura, personalizable y completa. Buscador multi-motor, accesos rá
 
 ### Características
 
-- **Buscador Multi-Motor** — Google, Bing, ChatGPT, Wikipedia, Perplexity
-- **Accesos Rápidos** — Arrastra, organiza y categoriza
+- **Buscador Multi-Motor** — Google, Bing, DuckDuckGo, ChatGPT, Wikipedia, Perplexity
+- **Accesos Rápidos** — Arrastra, organiza y categoriza con iconos automáticos
 - **Perfiles** — Personal, Público, Trabajo... cada uno con enlaces independientes
 - **Reloj en Vivo** — Sincronización internet/PC, formato 12/24h, zonas horarias
 - **Fondos Dinámicos** — Presets, URLs o archivos locales con rotación automática
@@ -34,13 +34,13 @@ Experiencia oscura, personalizable y completa. Buscador multi-motor, accesos rá
 GNU General Public License v3.0 — Ver archivo LICENSE
 
 Desarrollado por **Freezeezy Peak**
-GitHub: [github.com/FreezeezyPeak-StudioDev](link)
+GitHub: [github.com/FreezeezyPeak-StudioDev/DarkSnowF](link)
 
 ---
 
-## English (EN)
+## English
 
-**DarkSnowF — Personalized Home Page**
+### DarkSnowF — Personalized Home Page
 
 Dark, customizable, complete experience. Multi-engine search, draggable shortcuts, live clock, dynamic backgrounds, 5 blue themes, animated snow, secret phrases and independent profiles.
 
@@ -48,8 +48,8 @@ Dark, customizable, complete experience. Multi-engine search, draggable shortcut
 
 ### Features
 
-- **Multi-Engine Search** — Google, Bing, ChatGPT, Wikipedia, Perplexity
-- **Draggable Shortcuts** — Drag, organize and categorize
+- **Multi-Engine Search** — Google, Bing, DuckDuckGo, ChatGPT, Wikipedia, Perplexity
+- **Draggable Shortcuts** — Drag, organize and categorize with automatic icons
 - **Profiles** — Personal, Public, Work... each with independent links
 - **Live Clock** — Internet/PC sync, 12/24h format, timezone support
 - **Dynamic Backgrounds** — Presets, URLs, or local files with auto-rotation
@@ -68,4 +68,4 @@ Dark, customizable, complete experience. Multi-engine search, draggable shortcut
 GNU General Public License v3.0 — See LICENSE file
 
 Developed by **Freezeezy Peak**
-GitHub: [github.com/FreezeezyPeak-StudioDev](link)
+GitHub: [github.com/FreezeezyPeak-StudioDev/DarkSnowF](link)
